@@ -15,8 +15,8 @@ return {
     screenshot = 'flameshot screen -p ~/Pictures',
     region_screenshot = 'flameshot gui -p ~/Pictures',
     delayed_screenshot = 'flameshot screen -p ~/Pictures -d 5000',
-    browser = 'brave-browser',
-    editor = 'gedit', -- gui text editor
+    browser = 'firefox',
+    editor = 'nvim', -- gui text editor
     social = 'discord',
     game = rofi_command,
     files = 'nautilus',
@@ -31,9 +31,7 @@ return {
     'numlockx on', -- enable numlock
     '/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 & eval $(gnome-keyring-daemon -s --components=pkcs11,secrets,ssh,gpg)', -- credential manager
     'xfce4-power-manager', -- Power manager
-     'flameshot',
-     'synology-drive -minimized',
-     'steam -silent',
+    'flameshot',
     'feh --randomize --bg-fill ~/.wallpapers/*',
     '/usr/bin/variety',
     -- Add applications that need to be killed between reloads
